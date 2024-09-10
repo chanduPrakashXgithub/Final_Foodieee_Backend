@@ -22,7 +22,7 @@ const port = process.env.PORT || 4000;
 
 // Use CORS middleware before defining routes
 app.use(cors({
-  origin: 'http://localhost:5173', // Allow only this origin
+  origin: ['http://localhost:5173','https://final-foodie-frontend.vercel.app/'], // Allow only this origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allow specific methods
   credentials: true, // Allow cookies to be sent
 }));
