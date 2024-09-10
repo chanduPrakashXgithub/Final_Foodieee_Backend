@@ -1,0 +1,20 @@
+backend list :
+express , mongoose , dot env,body-parser ,nodemon,jwt tokens , bcrypt ,multer
+
+connecting database
+API creation
+ models
+  Vendors : username , email ,password
+  firm : firmname, area, category , region , offer, image
+  products : productname , price , category, image,best seller
+ controllers
+   vendercontrollers
+ routes
+   venderroutes
+   commands for update git through vscode:
+   git status,
+   git add .
+   git commit -m "made changes"
+   git pull
+   git push
+  
